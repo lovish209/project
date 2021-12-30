@@ -1,0 +1,10 @@
+{
+    "/api": {
+      "target": "http://recruitment.roadcast.net/node_js_api",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
